@@ -29,53 +29,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aps-candy-showdown/source@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@aps-candy-showdown/source@workspace:."
-  dependencies:
-    "@eslint/compat": "npm:^1.1.1"
-    "@eslint/js": "npm:^9.8.0"
-    "@g-loot/react-tournament-brackets": "npm:^1.0.31-rc"
-    "@nx/eslint": "npm:19.8.2"
-    "@nx/eslint-plugin": "npm:19.8.2"
-    "@nx/jest": "npm:19.8.2"
-    "@nx/js": "npm:19.8.2"
-    "@nx/next": "npm:19.8.2"
-    "@nx/workspace": "npm:19.8.2"
-    "@swc-node/register": "npm:~1.9.1"
-    "@swc/core": "npm:~1.5.7"
-    "@swc/helpers": "npm:~0.5.11"
-    "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:18.16.9"
-    "@types/react": "npm:18.3.1"
-    "@types/react-dom": "npm:18.3.0"
-    autoprefixer: "npm:10.4.13"
-    babel-jest: "npm:^29.7.0"
-    eslint: "npm:^9.8.0"
-    eslint-config-next: "npm:14.2.3"
-    eslint-config-prettier: "npm:^9.0.0"
-    eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-jsx-a11y: "npm:6.7.1"
-    eslint-plugin-react: "npm:7.35.0"
-    eslint-plugin-react-hooks: "npm:4.6.0"
-    jest: "npm:^29.7.0"
-    jest-environment-jsdom: "npm:^29.7.0"
-    next: "npm:14.2.3"
-    nx: "npm:19.8.2"
-    postcss: "npm:8.4.38"
-    prettier: "npm:^2.6.2"
-    react: "npm:18.3.1"
-    react-dom: "npm:18.3.1"
-    styled-components: "npm:^6.1.13"
-    tailwindcss: "npm:3.4.3"
-    ts-jest: "npm:^29.1.0"
-    ts-node: "npm:10.9.1"
-    tslib: "npm:^2.3.0"
-    typescript: "npm:~5.5.2"
-    typescript-eslint: "npm:^8.0.0"
-  languageName: unknown
-  linkType: soft
-
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.16.7, @babel/code-frame@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/code-frame@npm:7.24.7"
@@ -4349,6 +4302,53 @@ __metadata:
   checksum: 10c0/57b06ae984bc32a0d22592c87384cd88fe4511b1dd7581497831c56d41939c8a001b28e7b853e1450f2bf61992dfcaa8ae2d0d161a0a90c4fb631ef07098fbac
   languageName: node
   linkType: hard
+
+"aps-candy-showdown@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "aps-candy-showdown@workspace:."
+  dependencies:
+    "@eslint/compat": "npm:^1.1.1"
+    "@eslint/js": "npm:^9.8.0"
+    "@g-loot/react-tournament-brackets": "npm:^1.0.31-rc"
+    "@nx/eslint": "npm:19.8.2"
+    "@nx/eslint-plugin": "npm:19.8.2"
+    "@nx/jest": "npm:19.8.2"
+    "@nx/js": "npm:19.8.2"
+    "@nx/next": "npm:19.8.2"
+    "@nx/workspace": "npm:19.8.2"
+    "@swc-node/register": "npm:~1.9.1"
+    "@swc/core": "npm:~1.5.7"
+    "@swc/helpers": "npm:~0.5.11"
+    "@types/jest": "npm:^29.5.12"
+    "@types/node": "npm:18.16.9"
+    "@types/react": "npm:18.3.1"
+    "@types/react-dom": "npm:18.3.0"
+    autoprefixer: "npm:10.4.13"
+    babel-jest: "npm:^29.7.0"
+    eslint: "npm:^9.8.0"
+    eslint-config-next: "npm:14.2.3"
+    eslint-config-prettier: "npm:^9.0.0"
+    eslint-plugin-import: "npm:2.30.0"
+    eslint-plugin-jsx-a11y: "npm:6.7.1"
+    eslint-plugin-react: "npm:7.35.0"
+    eslint-plugin-react-hooks: "npm:4.6.0"
+    jest: "npm:^29.7.0"
+    jest-environment-jsdom: "npm:^29.7.0"
+    next: "npm:14.2.3"
+    nx: "npm:19.8.2"
+    postcss: "npm:8.4.38"
+    prettier: "npm:^2.6.2"
+    react: "npm:18.3.1"
+    react-dom: "npm:18.3.1"
+    styled-components: "npm:^6.1.13"
+    tailwindcss: "npm:3.4.3"
+    ts-jest: "npm:^29.1.0"
+    ts-node: "npm:10.9.1"
+    tslib: "npm:^2.3.0"
+    typescript: "npm:~5.5.2"
+    typescript-eslint: "npm:^8.0.0"
+  languageName: unknown
+  linkType: soft
 
 "arg@npm:^4.1.0":
   version: 4.1.3
